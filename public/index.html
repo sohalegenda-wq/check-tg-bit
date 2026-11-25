@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ким — Full-Stack Developer. Шесть лет в программировании. Разрабатываю сайты, Telegram-ботов и IT-решения на заказ.">
+  <meta name="theme-color" content="#f7f6f2">
+  <title>Ким | Full-Stack Developer</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="cookies.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">К содержанию</a>
+
+  <header class="site-header frame">
+    <a class="wordmark" href="#top" aria-label="Ким, в начало страницы">ким<span>.</span></a>
+    <nav aria-label="Основная навигация">
+      <ul class="nav-list">
+        <li><a href="#about">Обо мне</a></li>
+        <li><a href="#services">Услуги</a></li>
+        <li><a href="#telegram">Telegram</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="frame">
+    <section class="hero" id="about" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="hero-role">Full-Stack Developer</p>
+        <h1 id="hero-title">Ким<span>.</span></h1>
+        <p class="hero-intro">Уже шесть лет занимаюсь программированием. Работаю с Python и другими языками. На заказ разрабатываю сайты, Telegram-ботов и IT-решения под конкретные задачи.</p>
+        <a class="button button-primary" href="#services">Чем я занимаюсь</a>
+      </div>
+      <img
+        class="hero-image"
+        src="assets/terminal.webp"
+        alt=""
+        width="1100"
+        height="1100"
+        fetchpriority="high"
+      >
+    </section>
+
+    <section class="services" id="services" aria-labelledby="services-title">
+      <h2 id="services-title">Что я делаю</h2>
+      <dl class="service-list">
+        <div>
+          <dt>Веб-разработка</dt>
+          <dd>Сайты, от простых визиток до проектов с личным кабинетом и серверной частью.</dd>
+        </div>
+        <div>
+          <dt>Telegram-боты</dt>
+          <dd>Боты для заявок, уведомлений и других задач, которые удобно решать в чате.</dd>
+        </div>
+        <div>
+          <dt>IT-решения на заказ</dt>
+          <dd>Скрипты для автоматизации рутины и интеграции между сервисами.</dd>
+        </div>
+      </dl>
+    </section>
+
+    <section class="channel" id="telegram" aria-labelledby="channel-title">
+      <div>
+        <h2 id="channel-title">Мой Telegram-канал</h2>
+        <p>Там можно посмотреть прайс-лист, условия сотрудничества и примеры работ.</p>
+      </div>
+      <p class="channel-note">Ссылка на канал появится здесь.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer frame">
+    <p>Ким · Full-Stack Developer</p>
+    <button type="button" class="cookie-settings" data-cookie-settings hidden>Настройки cookies</button>
+  </footer>
+
+  <aside class="cookie-banner" data-cookie-banner aria-labelledby="cookie-title" hidden>
+    <div class="cookie-copy">
+      <h2 id="cookie-title" tabindex="-1">Cookies</h2>
+      <p>Служебная cookie нужна только для того, чтобы запомнить ваш выбор.</p>
+    </div>
+    <div class="cookie-actions">
+      <button type="button" class="button button-secondary" data-cookie-choice="declined">Отклонить</button>
+      <button type="button" class="button button-primary" data-cookie-choice="accepted">Принять</button>
+    </div>
+  </aside>
+</body>
+</html>
